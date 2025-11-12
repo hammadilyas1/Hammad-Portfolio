@@ -139,10 +139,11 @@ function closeModal(){
 }
 
 
-$('#previewCv')?.addEventListener('click', ()=> openModal('images/Hammad-cv.jpg'));
+$('#previewCv')?.addEventListener('click', ()=> openModal('images/hammadcv.jpg'));
 modalClose?.addEventListener('click', closeModal);
 modal.addEventListener('click', (e)=> { if(e.target === modal) closeModal(); });
 
 /* make preview CV/CERT buttons change to accent color on hover (accessible via CSS) */
 /* (CSS handles hover) */
+
 
